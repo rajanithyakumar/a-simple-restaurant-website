@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reestar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .nav {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Food Section */
+        .container {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .card {
+            display: inline-block;
+            width: 220px;
+            border: 1px solid black;
+            margin: 10px;
+            vertical-align: top;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .card p {
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .card button {
+            background-color: black;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .contact input {
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .contact button {
+            background-color: yellow;
+            border: none;
+            padding: 8px 200px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Reestar</h1>
+        <div class="nav">
+            Home | Recipe | Contact
+        </div>
+    </div>
+
+    <!-- Food Cards -->
+    <div class="container">
+        <div class="card">
+            <img src="images/biriyani.jpg" alt="Biriyani">
+            <p>Delicious and spicy Biriyani made with rich flavors</p>
+            <button>Order Now</button>
+        </div>
+        
+        <div class="card">
+            <img src="images/friedrice.jpg" alt="Chicken Fried Rice">
+            <p>Hot and tasty Chicken Fried Rice</p>
+            <button>Order Now</button>
+        </div>
+        
+        <div class="card">
+            <img src="images/idly.jpg" alt="Idly">
+            <p>Soft and fluffy Idly served with chutney</p>
+            <button>Order Now</button>
+        </div>
+        
+        <div class="card">
+            <img src="images/dosa.jpg" alt="Dosa">
+            <p>Crispy golden Dosa served hot</p>
+            <button>Order Now</button>
+        </div>
+        
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Name: <input type="text"></p>
+        <p>Age: <input type="number"></p>
+        <p>Email: <input type="email"></p>
+        <br>
+        <button>Send</button>
+    </div>
+
+</body>
+</html>
